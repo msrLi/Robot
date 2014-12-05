@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\GitHub\macrobotUsart\RobotUsartUsed\stm32f407_forTempGetAndDTU_Send\Prject\PriojAllComble.uvproj
+Project File Date:  12/02/2014
+
+<h2>Output:</h2>
+Build target 'PriojAllComble'
+linking...
+Program Size: Code=54820 RO-data=1484 RW-data=2052 ZI-data=39068  
+".\Output\base_empty.axf" - 0 Error(s), 0 Warning(s).
+Load "F:\\GitHub\\macrobotUsart\\RobotUsartUsed\\stm32f407_forTempGetAndDTU_Send\\Prject\\Output\\base_empty.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>
+ify OK.
+6): warning:  #177-D: variable "GPIO_InitStructure" was declared but never referenced
+      GPIO_InitTypeDef GPIO_InitStructure;
+user\main.c(167): warning:  #177-D: variable "flages" was declared but never referenced
+          static uint8_t flages=0;
+user\main.c(168): warning:  #177-D: variable "daBuf" was declared but never referenced
+          uint8_t daBuf;
+user\main.c(169): warning:  #177-D: variable "TxBuff" was declared but never referenced
+          uint8_t TxBuff[8],i;
+user\main.c(169): warning:  #177-D: variable "i" was declared but never referenced
+          uint8_t TxBuff[8],i;
+user\main.c(42): warning:  #177-D: variable "AppTaskGUITCB" was declared but never referenced
+  static  OS_TCB   AppTaskGUITCB;   // 
+user\main.c(43): warning:  #177-D: variable "AppTaskGUIStk" was declared but never referenced
+  static  CPU_STK  AppTaskGUIStk[APP_CFG_TASK_GUI_STK_SIZE];
+user\main.c(48): warning:  #177-D: variable "AppTaskGUIRefreshTCB" was declared but never referenced
+  static  OS_TCB   AppTaskGUIRefreshTCB;
+user\main.c(49): warning:  #177-D: variable "AppTaskGUIRefreshStk" was declared but never referenced
+  static  CPU_STK  AppTaskGUIRefreshStk[APP_CFG_TASK_GUIRefresh_STK_SIZE];
+user\main.c: 11 warnings, 0 errors
+compiling stm32f4xx_it.c...
+compiling LCD_Draw.c...
+compiling bsp.c...
+compiling Bsp_Led.c...
+compiling bsp_os.c...
+linking...
+Program Size: Code=54844 RO-data=1484 RW-data=2052 ZI-data=39068  
+".\Output\base_empty.axf" - 0 Error(s), 11 Warning(s).
